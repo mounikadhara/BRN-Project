@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     var textLabel:UILabel!
+    var button:UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,11 +19,14 @@ class ViewController: UIViewController {
         textLabel = UILabel()
         textLabel.text = "sample"
         view.addSubview(textLabel)
+        // button
+        button = UIButton()
+        view.addSubview(button)
         
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    
  
 }
 
