@@ -9,12 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var textLabel:UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        textLabel = UILabel()
+        textLabel.text = "sample"
+        view.addSubview(textLabel)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
 
+ 
 }
 
